@@ -20,6 +20,13 @@
 -	For the teacher’s registered courses, add new or delete existed personal or team subjects.
 -	For the teacher’s registered courses, add new or delete existed tasks.
 
+## 🛠️ Technologies Used
+
+- ASP.NET MVC Framework
+- C# for Business Logic
+- HTML5
+- SQL Server for data persistence
+- Bootstrap for responsive UI
 
 # 🔒 Code Ownership & Usage Terms
 
