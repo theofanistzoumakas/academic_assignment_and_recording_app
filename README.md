@@ -1,6 +1,7 @@
 # 📝 Web Application: Academic Assignment and Recording Application
 **This project is a role-based academic assignment and recording application management system developed using the MVC (Model-View-Controller) architecture. It supports multiple user roles including Teachers, Administrators, and Students.**
 
+
 ## 🌐 Features
 ### 🔐 Authentication
 -	Secure login system for Students, Administrators, and Teachers
@@ -31,6 +32,32 @@ The purpose of this project is to develop a functional web application that allo
 - HTML5
 - SQL Server for data persistence
 - Bootstrap for responsive UI
+
+## 📦 Installation
+
+To set up the project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/theofanistzoumakas/academic_assignment_and_recording_app.git
+   cd academic_assignment_and_recording_app
+2. **Open the project in Visual Studio 2022** using the `.sln` file
+3. **Confirm that the following NuGet packages are installed:**
+    - Microsoft.EntityFrameworkCore.SqlServer (version **9.0.9**)
+    - Microsoft.EntityFrameworkCore.Tools (version **9.0.9**)
+    - Microsoft.VisualStudio.Web.CodeGeneration.Design (version **9.0.0**)
+    - X.PagedList.Mvc.Core (version **10.5.x**)
+4. **Verify Target Framework**
+     In your `.csproj` file, ensure the framework is set correctly:
+   
+     ```xml
+     <TargetFramework>net8.0</TargetFramework>
+
+5. **Install** SQL Server Express and optionally SQL Server Management Studio (SSMS)
+   - Update the connection string in `appsettings.json` and `LabDBContext.cs (Models folder)` to match your local SQL Server instance
+   - Run the provided SQL script `database_schema.sql` to initialize the schema and seed data
+
+6. **Run** the web application from  Visual Studio
 
 # 🔒 Code Ownership & Usage Terms
 
