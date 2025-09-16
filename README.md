@@ -1,6 +1,8 @@
 # 📝 Web Application: Academic Assignment and Recording Application
 **This project is a role-based academic assignment and recording application management system developed using the MVC (Model-View-Controller) architecture. It supports multiple user roles including Teachers, Administrators, and Students.**
 
+> ℹ️ This project is not open source and does not grant any usage rights.
+> For usage terms and legal information, see [Code Ownership & Usage Terms](#-code-ownership--usage-terms).
 
 ## 🌐 Features
 ### 🔐 Authentication
