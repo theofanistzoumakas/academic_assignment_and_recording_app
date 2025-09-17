@@ -32,7 +32,7 @@ The purpose of this project is to develop a functional web application that allo
 - ASP.NET MVC Framework
 - C# for Business Logic
 - HTML5
-- SQL Server for data persistence
+- PostgreSQL for data persistence
 - Bootstrap for responsive UI
 
 ## 📦 Installation
@@ -55,11 +55,7 @@ To set up the project locally:
      ```xml
      <TargetFramework>net8.0</TargetFramework>
 
-5. **Install** SQL Server Express and optionally SQL Server Management Studio (SSMS)
-   - Update the connection string in `appsettings.json` and `LabDBContext.cs (Models folder)` to match your local SQL Server instance
-   - Run the provided SQL script `database_schema.sql` to initialize the schema and seed data
-
-6. **Run** the web application from  Visual Studio
+5. **Run** the web application from  Visual Studio
 
 # 🔒 Code Ownership & Usage Terms
 
