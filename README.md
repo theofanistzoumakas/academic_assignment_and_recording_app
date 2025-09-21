@@ -55,7 +55,12 @@ To set up the project locally:
      ```xml
      <TargetFramework>net8.0</TargetFramework>
 
-5. **Run** the web application from  Visual Studio
+5. **Install** PgAdmin.
+    - Update the connection string in appsettings.json and LabDBContext.cs (Models folder) to match PgAdmin
+    - Run the provided SQL script database_schema.sql to initialize the schema and seed data.
+    - In database, manually increament the id value as required and save the changes.
+
+7. **Run** the web application from  Visual Studio
 
 # 🔒 Code Ownership & Usage Terms
 
