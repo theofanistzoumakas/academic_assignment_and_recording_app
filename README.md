@@ -62,6 +62,18 @@ To set up the project locally:
 
 7. **Run** the web application from  Visual Studio
 
+
+## 📷 Screenshots
+
+**_App Screens:_**  
+> <img width="250" height="160" alt="screenshot_1" src="assets/log_in_screenshot.png" />
+> <img width="250" height="160" alt="screenshot_2" src="assets/teacher_subject_screenshot.png" />
+> <img width="250" height="160" alt="screenshot_3" src="assets/create_subject_screenshot.png" />
+> <img width="250" height="160" alt="screenshot_4" src="assets/create_task_screenshot.png" />
+> <img width="250" height="160" alt="screenshot_5" src="assets/student_task_screenshot.png" />
+> <img width="250" height="160" alt="screenshot_6" src="assets/student_task_screenshot_2.png" />
+
+
 # 🔒 Code Ownership & Usage Terms
 
 This project was created and maintained by:
